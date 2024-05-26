@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: mekel17/auth
+          image: us.gcr.io/ticket-central-dev/auth
 ---
 apiVersion: v1
 kind: Service

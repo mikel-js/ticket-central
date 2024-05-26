@@ -7,6 +7,8 @@ deploy:
 build:
   local:
     push: false
+  googleCloudBuild:
+    projectId: ticket-central-dev
   artifacts:
     - image: mekel17/auth
       context: auth

@@ -10,7 +10,7 @@ build:
   googleCloudBuild:
     projectId: ticket-central-dev
   artifacts:
-    - image: mekel17/auth
+    - image: us.gcr.io/ticket-central-dev/auth
       context: auth
       docker:
         dockerfile: Dockerfile

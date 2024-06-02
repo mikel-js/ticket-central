@@ -5,4 +5,10 @@ export const errorHandler = (
   req: Request,
   res: Response,
   next: NextFunction
-) => {};
+) => {
+  console.log('err', err);
+
+  res.status(400).send({
+    message: 'soe',
+  });
+};
